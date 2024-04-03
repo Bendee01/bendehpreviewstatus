@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Magyarország legjobb és legolcsóbb","Discord BOT és szerver configjai"];
+const statusMessages = ["Configolás","Discord BOT programozás","Felújítás","Admin munka","❗bendehpreview.hu❗"];
 
 
 let currentIndex = 0;
@@ -98,7 +98,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 3000);
+  }, 1000);
 });
 
 login();
