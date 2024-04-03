@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Configolás","Discord BOT programozás","Felújítás","Admin munka","❗bendehpreview.hu❗"];
+const statusMessages = ["bendehpreview.hu"];
 
 
 let currentIndex = 0;
@@ -73,7 +73,7 @@ function updateStatusAndSendMessages() {
   const nextStatus = statusMessages[(currentIndex + 1) % statusMessages.length];
 
   client.user.setPresence({
-    activities: [{ name: currentStatus, type: ActivityType.Custom}],
+    activities: [{ name: currentStatus, type: ActivityType.Watching}],
     status: 'dnd',
   });
 
