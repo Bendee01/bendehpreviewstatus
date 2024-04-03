@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Magyarország legjobb","Discord BOT és szerver configa"];
+const statusMessages = ["Magyarország legjobb és legolcsóbb","Discord BOT és szerver configjai"];
 
 
 let currentIndex = 0;
