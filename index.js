@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["bendehpreview.hu"];
+const statusMessages = ["bendehpreview.hu","❗bendehpreview.hu❗"];
 
 
 let currentIndex = 0;
@@ -98,7 +98,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 5000);
+  }, 3000);
 });
 
 login();
